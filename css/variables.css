@@ -1,0 +1,26 @@
+:root{
+    --color-1: #000000;
+    --color-2: #FFFFFF;
+    --color-3: #761CBC;
+    --color-4: #EC441E;
+    --block-1: #EDE9FF;
+    --block-2: #FFF5D7;
+    --block-3: #FFECEC;
+    --block-4: #E4FFEA;
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../storage/font/Inter/static/Inter_18pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../storage/font/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url(../storage/font/DM_Sans/static/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: "";
+    src: url(../storage/font/Inter/static/med);
+}
