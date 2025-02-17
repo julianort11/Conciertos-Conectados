@@ -3,11 +3,18 @@
     --color-2: #FFFFFF;
     --color-3: #761CBC;
     --color-4: #EC441E;
-    --block-1: #EDE9FF;
+    --block-1: #ede9ff;
     --block-2: #FFF5D7;
     --block-3: #FFECEC;
     --block-4: #E4FFEA;
     --background-color-1: linear-gradient(135deg, rgba(0, 237, 252, 1) 0%, rgba(34, 34, 126, 1) 33%, rgba(117, 31, 139, 1) 66%);
+    --background-color-2: linear-gradient(
+        to top,
+        rgba(45, 38, 75, 0.95) 0%,   /* Muy opaco al inicio */
+        rgba(45, 38, 75, 0.9) 50%,   /* Sigue bastante opaco en el medio */
+        rgba(45, 38, 75, 0.85) 100%  /* Un poco más transparente arriba */
+      ); 
+    
 }
 @font-face {
     font-family: "Inter-SemiBold";
