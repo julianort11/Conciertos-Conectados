@@ -7,6 +7,7 @@
     --block-2: #FFF5D7;
     --block-3: #FFECEC;
     --block-4: #E4FFEA;
+    --background-color-1: linear-gradient(135deg, rgba(0, 237, 252, 1) 0%, rgba(34, 34, 126, 1) 33%, rgba(117, 31, 139, 1) 66%);
 }
 @font-face {
     font-family: "Inter-SemiBold";
