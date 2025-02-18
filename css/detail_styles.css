@@ -20,6 +20,12 @@
     height: 316px;
     width: 100%;
 }
+.div__options{
+    display: flex;
+    position: absolute;
+    left: 349px;
+    top: 51px;
+}
 /************ card ***********/
 main{
     width: auto;
@@ -128,7 +134,7 @@ main{
 .div__location{
     /* background: green; */
     padding-top: 28px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 .img__ubi{
     /* background: red; */
@@ -163,6 +169,9 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.div__buy a{
+    text-decoration: none;
 }
 .div__buy h2{
     font-family: "Inter-Medium";
