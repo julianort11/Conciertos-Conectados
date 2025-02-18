@@ -59,7 +59,8 @@
     gap: 5px;
 }
 .div__litle-inf span{
-    font-family: ;
+    font-family: "Inter-Regular";
+    font-size: 12px;
 }
 .picture__person {
     /* background: pink; */
@@ -93,4 +94,43 @@
 .total__people span{
     font-family: "Inter-Medium";
     font-size: 12px;
+}
+/************ description **********/
+.section__inf {
+    /* background: green; */
+    padding-left: 20px;
+}
+.article__description {
+    /* background: yellow; */
+    width: 346px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.article__description h4{
+    font-family: "Inter-Medium";
+    font-size: 14px;
+}
+.div__text{
+    /* background: palegoldenrod; */
+    text-align: left;
+}
+.div__text p{
+    font-size: 12px;
+    font-family: "DMSans-Regular";
+    color: var(--color-5);
+}
+.div__text span{
+    color: var(--color-6);
+    font-family: "DMSans-Medium";
+    font-size: 12px;
+}
+.div__location{
+    /* background: green; */
+    padding-top: 28px;
+}
+.img__ubi{
+    /* background: red; */
+    padding-top: 12px;
 }
