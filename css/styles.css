@@ -258,6 +258,11 @@ header {
     flex-direction: column;
     border-radius: 8px;
 }
+.div__card a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
 .div__near-inf {
     /* background: blueviolet; */
     display: flex;
