@@ -59,12 +59,21 @@ header{
     background-repeat: no-repeat;
     flex: 0 0 auto;
     margin-right: 16px;
+    display:flex ;
+    flex-direction: row;
+    gap: 35px;
+}
+.carousel__item img{
+    width: 308px;
+    height: 159px;
 }
 .carousel__item {
     /* background: red; */
     display: flex;
     justify-content: center;
     padding-top: 17px;
+    padding-left: 18px;
+
 }
 .div__info-ticket {
     /* background: pink; */
@@ -72,7 +81,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 18px; */
+    margin-top: 140px;
+    margin-left: -336px;
 }
 .div__title {
     /* background: palegoldenrod; */
@@ -137,10 +147,10 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    margin-top: 52px;
+    /* gap: 30px; */
+    margin-top: 32px;
 }
-.codigo__barras{
+.codigo__barras span{
     font-family: "Inter-Regular";
     font-size: 12px;
 }
