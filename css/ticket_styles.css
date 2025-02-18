@@ -7,7 +7,7 @@
 body{
     background: linear-gradient(153deg, #91B5FD,#F0DDFF);
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 header{
     /* background: green; */
@@ -42,9 +42,10 @@ header{
 }
 /******************ticket********************/
 .article__carousel-ticket{
-    background: green;
+    /* background: green; */
     padding-left: 22px;
     padding-top: 46px;
+    padding-bottom: 113px;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -129,4 +130,17 @@ header{
 .infomacion h4{
     font-family: "Inter-SemiBold";
     font-size: 14px;
+}
+.codigo__barras{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 52px;
+}
+.codigo__barras{
+    font-family: "Inter-Regular";
+    font-size: 12px;
 }
