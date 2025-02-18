@@ -41,3 +41,92 @@ header{
     height: 20px;
 }
 /******************ticket********************/
+.article__carousel-ticket{
+    background: green;
+    padding-left: 22px;
+    padding-top: 46px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.section__carousel {
+    width: 343px;
+    height: 596px;
+    background-image: url(../storage/img/ticket.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0 0 auto;
+    margin-right: 16px;
+}
+.carousel__item {
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+}
+.div__info-ticket {
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 18px; */
+}
+.div__title {
+    /* background: palegoldenrod; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 292px;
+    height: 65px;
+    padding-top: 16px;
+}
+.div__title h2{
+    font-family: "Inter-SemiBold";
+    font-size: 18px;
+}
+.div__title span{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-5);
+}
+.info-ticket {
+    /* background: violet; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 292px;
+    height: 201px;
+    padding-top: 40px;
+    column-gap: 50px;
+
+    >div:nth-child(2){
+        /* background: red; */
+        width: 100px;
+    }
+    >div:nth-child(4){
+        /* background: red; */
+        width: 100px;
+    }
+    >div:nth-child(6){
+        /* background: red; */
+        width: 100px;
+    }
+}
+.infomacion {
+    /* background: greenyellow; */
+    width: 140px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20px; */
+}
+.infomacion span{
+    font-family: "Inter-Medium";
+    font-size: 12px;
+    color: var(--color-5);
+}
+.infomacion h4{
+    font-family: "Inter-SemiBold";
+    font-size: 14px;
+}
