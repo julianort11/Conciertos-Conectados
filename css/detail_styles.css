@@ -1,0 +1,25 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div__back{
+    background: var(--background-color-3);
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35px;
+    left: 22px;
+    border-radius: 6px;
+}
+.div__picture-princ{
+    
+}
+.div__picture-princ img{
+    height: 316px;
+    width: 100%;
+}

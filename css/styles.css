@@ -140,9 +140,6 @@ header {
     font-family: "Inter-SemiBold";
     font-size: 14px;
 }
-.article__carousel {
-    /* background: green; */
-}
 /************* caruousel event **************/
 .div__title-trending{
     /* background: red; */
@@ -246,9 +243,6 @@ header {
     font-family: "Inter-Regular";
 }
 /****card****/
-.section__card {
-    /* background: blue; */
-}
 .article__card-near {
     /* background: green; */
     padding: 20px;
@@ -278,9 +272,6 @@ header {
 .div__near-inf span{
     font-family: "Inter-Regular";
     font-size: 11px;
-}
-.near__price {
-    /* background: pink; */
 }
 .near__price span{
     font-family: "Inter-SemiBold";
