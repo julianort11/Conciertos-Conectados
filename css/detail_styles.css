@@ -17,9 +17,80 @@
     border-radius: 6px;
 }
 .div__picture-princ{
-    
+
 }
 .div__picture-princ img{
     height: 316px;
     width: 100%;
+}
+/************ card ***********/
+.section__card-detail {
+    /* background: red; */
+    padding: 20px;
+    margin-top: -79px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.article__detail {
+    background: violet;
+    width: 346px;
+    height: 140px;
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: -10px;
+}
+.title__firts {
+    /* background: blue; */
+}
+.title__firts h4{
+    font-family: "Inter-SemiBold";
+    font-size: 14px;
+    color: var(--color-1);
+}
+.title__firts h4 span{
+    color: var(--color-3);
+}
+.div__litle-inf {
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 5px;
+}
+.div__litle-inf span{
+    font-family: ;
+}
+.picture__person {
+    /* background: pink; */
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.picture {
+    /* background: yellowgreen; */
+    display: contents; 
+    align-items: center;
+}
+.picture img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -22px;
+    position: relative;
+    left: 21px;
+}
+.picture:first-child{
+    margin-left: 0;
+}
+.total__people {
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+}
+.total__people span{
+    font-family: "Inter-Medium";
+    font-size: 12px;
 }
