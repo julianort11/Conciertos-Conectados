@@ -144,7 +144,8 @@ header {
 .div__title-trending{
     /* background: red; */
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
+    /* gap: 190px; */
 }
 .div__title-trending h2{
     font-size: 14px;
@@ -193,7 +194,8 @@ header {
 }
 .div__info h4{
     font-family: "Inter-SemiBold";
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: 100;
     color: var(--color-2);
 }
 .div__info span{
@@ -230,9 +232,10 @@ header {
 .near__title{
     /* background: yellow; */
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 349px;
     height: 17px;
-    gap: 200px;
 }
 .near__title h1{
     font-size: 14px;
@@ -273,6 +276,7 @@ header {
 .div__near-inf h4{
     font-family: "Inter-SemiBold";
     font-size: 10px;
+    font-weight: 100;
 }
 .div__near-inf span{
     font-family: "Inter-Regular";

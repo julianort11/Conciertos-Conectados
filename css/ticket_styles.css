@@ -66,6 +66,7 @@ header{
 .carousel__item img{
     width: 308px;
     height: 159px;
+    border-radius: 14px;
 }
 .carousel__item {
     /* background: red; */
